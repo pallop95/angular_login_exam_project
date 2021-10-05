@@ -4,7 +4,17 @@
 
 export const environment = {
     production: false,
-    apiUrl: 'http://localhost:4000'
+    apiUrl: 'http://localhost:4000',
+    AUTHENICATION_SERVICE_URL: 'http://localhost:9001',
+    REQUEST_SERVICE_URL: 'http://localhost:9003'
+
+    // ROUTING_SERVICE_URL=http://localhost:9929
+    // AUTHENICATION_SERVICE_URL=http://localhost:9922
+    // STATE_SERVICE_URL=http://10.9.213.182:9925
+    // APP_SERVICE_URL=http://localhost:9924
+    // EXTERNAL_WS_SERVICE=http://10.9.213.182:9923
+    // EX_IMAGE_SERVICE=http://10.9.213.182:9923
+    // PRESUIT_SERVICE_URL=http://localhost:9927
 };
 
 /*
